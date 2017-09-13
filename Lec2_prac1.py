@@ -15,7 +15,7 @@ class FunctionTests(unittest.TestCase):
         self.assertEqual(subtract_one(3), 2, "Testing if my subtract_one fuction gives me good output")
 
     def test_neg_number(self):
-        self.assertEqual(subtract_one(0)), 0, "Testing function with "
+        self.assertEqual(subtract_one(0)), 0, "Testing function with negative value"
     
     def tearDown(self):
 
